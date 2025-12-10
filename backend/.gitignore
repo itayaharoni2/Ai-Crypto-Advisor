@@ -15,10 +15,10 @@ dist
 dist-ssr
 
 # Local environment files
-.env        # Ignore real secrets
+.env
 .env.local
 .env.*      # Ignore any .env.<something> files except .env.example
-!.env.example  # Keep the example file in GitHub
+!.env.example
 
 # Editor directories and files
 .vscode/*

@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 // allow frontend to talk with backend
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "*",
   })
 );
 
